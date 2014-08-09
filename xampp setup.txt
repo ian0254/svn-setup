@@ -1,0 +1,7 @@
+LoadModule dav_module modules/mod_dav.so
+LoadModule dav_svn_module C:/Subversion/bin/mod_dav_svn.so
+
+<Location /svn>
+Dav svn
+SVNPath C:/svn.repo
+</Location>
